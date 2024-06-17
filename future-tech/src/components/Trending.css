@@ -1,0 +1,40 @@
+/* trending style */
+.trending {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .trending h2 {
+    font-size: clamp(30px, 2.083vw, 40px);
+    color: #204174;
+  }
+  
+  .trending-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /*Responsive mobile*/
+  @media (max-width: 600px) {
+    .trending-items {
+      justify-content: center;
+    }
+
+    .trending h2 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+  }
+
+    /*Responsive table*/
+    @media (min-width: 600px) and (max-width: 900px) {
+      .trending h2 {
+        text-align: center;
+        margin-bottom: 35px;
+      }
+
+      .trending-items {
+        justify-content: center;
+      }
+    }

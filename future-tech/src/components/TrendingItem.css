@@ -1,0 +1,40 @@
+/* trending item style */
+.trending-item {
+    width: 380px; 
+    border-radius: 8px;
+    text-align: left;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  .trending-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trending-item-image {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .trending-item-content {
+    padding: 10px;
+  }
+  
+  .trending-item h3 {
+    color: #204174;
+    font-size: clamp(19px, 1.146vw, 22px);
+    margin: 0;
+    height: 45px;
+  }
+  
+  .trending-item p {
+    color: #8097B9;
+    font-size: clamp(20px, 1.146vw, 22px);
+  }
+  
